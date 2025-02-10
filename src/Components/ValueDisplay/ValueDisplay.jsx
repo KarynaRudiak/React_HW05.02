@@ -5,8 +5,8 @@ export default function ValueDisplay({ value }) {
 
     useEffect(() => {
         prevValue.current = value;
-    }, [value]);
-
+    }, [value]); 
+    
     return (
         <div>
             <h2>Current Value: {value}</h2>
